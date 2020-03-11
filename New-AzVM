@@ -1,0 +1,9 @@
+New-AzVM -ResourceGroupName "RG1" -Name "VM1" -Location "UKSouth" -VirtualNetworkName "VNET1" -SubnetName "default" -SecurityGroupName "NewSG" -PublicIpAddressName "VMIP" -OpenPorts 3389,80,443
+
+#returns
+
+cmdlet New-AzVM at command pipeline position 1
+Supply values for the following parameters:
+Credential
+User: gallc
+Password for user gallc: 
